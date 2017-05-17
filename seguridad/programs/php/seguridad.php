@@ -1,6 +1,6 @@
 <?php
 //Proyecto final de seguridad
-function modulo ($a,$b){	//modulo
+function modulo ($a,$b){//modulo
 	if($a<0){
 		$c=$a%$b;
 	return $c+$b;
