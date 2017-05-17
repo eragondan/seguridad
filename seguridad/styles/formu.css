@@ -1,0 +1,33 @@
+body
+{
+	font-family:Arial;
+	font-size:15px;
+	line-height:3em;
+}
+fieldset
+{
+	padding:1em;
+	margin:4em;
+}
+label
+{
+	color:blue;
+}
+input
+{
+	display:block;
+}
+input:focus
+{
+	border: 2px solid #000; 
+	background: #F3F3F3;
+}
+.diferente
+{
+	display:inline;
+}
+select
+{
+	display:block;
+
+}

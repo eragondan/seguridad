@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='es'>
+	<head>
+		<title>CURP</title>
+		<meta charset='UTF-8'/>
+		<link rel='stylesheet' type='text/css' href='../styles/formu.css'/>
+	</head>
+	<body>
+		<form method='get' action='../programs/php/formpit.php'>
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label>Nombre:</label>
+			<input type='text' name='nom' size='40' maxlength='40' placeholder='Apellido Paterno, Apellido Materno y Nombre(s)'/>
+			<label>Fecha de nacimiento:</label>
+			<input type='date' name='fechnac'/>
+			<label>Sexo:</label>
+			<label class='diferente'>Hombre</label>
+			<input type='radio' name='sexo' class='diferente' value='hombre' checked />
+			<label class='diferente' >Mujer</label>
+			<input type='radio' name='sexo'  class='diferente' value='mujer'/><br/>
+			<label>Lugar de Nacimiento:</label>
+			<select name="lugnat">
+				<option value=" AS ">AGUASCALIENTES AS </option>
+				<option value=" BC ">BAJA CALIFORNIA BC</option>
+				<option value=" BS ">BAJA CALIFORNIA SUR BS </option>
+				<option value=" CC ">CAMPECHE CC</option>
+				<option value=" CL ">COAHUILA CL </option>
+				<option value=" CM ">COLIMA CM</option>
+				<option value=" CS ">CHIAPAS CS </option>
+				<option value=" CH ">CHIHUAHUA CH</option>
+				<option value=" DF ">DISTRITO FEDERAL DF </option>
+				<option value=" DG ">DURANGO DG</option>
+				<option value=" GT ">GUANAJUATO GT </option>
+				<option value=" GR ">GUERRERO GR</option>
+				<option value=" HG ">HIDALGO HG </option>
+				<option value=" JC ">JALISCO JC</option>
+				<option value=" MC ">MÉXICO MC </option>
+				<option value=" MN ">MICHOACÁN MN</option>
+				<option value=" MS ">MORELOS MS </option>
+				<option value=" NT ">NAYARIT NT</option>
+				<option value=" NL ">NUEVO LEÓN NL </option>
+				<option value=" OC ">OAXACA OC</option>
+				<option value=" PL ">PUEBLA PL</option>
+				<option value=" QT ">QUERÉTARO QT</option>
+				<option value=" SP ">SAN LUIS POTOSÍ SP</option>
+				<option value=" SL ">SINALOA SL </option>
+				<option value=" SR ">SONORA SR</option>
+				<option value=" TC ">TABASCO TC </option>
+				<option value=" TS ">TAMAULIPAS TS</option>
+				<option value=" TL ">TLAXCALA TL </option>
+				<option value=" VZ ">VERACRUZ VZ</option>
+				<option value=" YN ">YUCATÁN YN </option>
+				<option value=" ZS ">ZACATECAS ZS </option>
+			</select>
+			<label>Código personal:</label>
+			<input type='submit' class='diferente' value='Enviar datos'/>
+			<input type='reset' class='diferente' value='Borrar datos'/>
+		</fieldset>
+		</form>
+	</body>
+</html>
